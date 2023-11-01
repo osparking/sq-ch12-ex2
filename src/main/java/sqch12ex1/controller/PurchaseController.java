@@ -21,8 +21,8 @@ public class PurchaseController {
 	private final PurchaseRepository repository;
 	
 	@PostMapping
-	public void createPurchase(@RequestBody Purpose purpose) {
-		repository.storePurchase(null);
+	public void createPurchase(@RequestBody Purchase purchase) {
+		repository.storePurchase(purchase);
 	}
 
 	@GetMapping
