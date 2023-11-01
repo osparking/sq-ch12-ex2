@@ -1,4 +1,4 @@
-package sqch12ex1.repository;
+package sqch12ex2.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import lombok.AllArgsConstructor;
-import sqch12ex1.domain.Purchase;
+import sqch12ex2.domain.Purchase;
 
 @Repository
 @AllArgsConstructor

@@ -1,4 +1,4 @@
-package sqch12ex1.domain;
+package sqch12ex2.domain;
 
 import java.math.BigDecimal;
 

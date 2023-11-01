@@ -1,4 +1,4 @@
-package sqch12ex1.controller;
+package sqch12ex2.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.AllArgsConstructor;
-import sqch12ex1.domain.Purchase;
-import sqch12ex1.repository.PurchaseRepository;
+import sqch12ex2.domain.Purchase;
+import sqch12ex2.repository.PurchaseRepository;
 
 @RestController
 @AllArgsConstructor
